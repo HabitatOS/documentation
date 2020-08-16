@@ -1,11 +1,10 @@
-project = 'HabitatOS documentation'
+project = 'HabitatOS Documentation'
 author = 'Matt Harasymczuk'
 email = 'matt@habitatos.space'
 
-language = 'en'
 html_theme = 'sphinx_rtd_theme'
 
-todo_emit_warnings = False
+todo_emit_warnings = True
 todo_include_todos = True
 
 extensions = [
@@ -25,13 +24,21 @@ suppress_warnings = [
     'autosectionlabel.*',
 ]
 
+language = 'en'
+numfig_format = {
+    'section': 'Section %s.',
+    'figure': 'Figure %s.',
+    'table': 'Table %s.',
+    'code-block': 'Listing %s.'}
+
 # article - for articles in scientific journals, presentations, short reports, program documentation, invitations, etc
 # proc - a class for proceedings based on the article class.
 # minimal - is as small as it can get. It only sets a page size and a base font. It is mainly used for debugging purposes.
 # report - for longer reports containing several chapters, small books, thesis, ...
 # book - for real books
 # slides - for slides. The class uses big sans serif letters.
-# memoir - for changing sensibly the output of the document. It is based on the book class, but you can create any kind of document with it (1)
+# memoir - for changing sensibly the output of the document. It is based on the book class, but you can create any kind of
+# document with it (1)
 # letter - For writing letters.
 # beamer - For writing presentations (see LaTeX/Presentations).
 latex_documentclass = 'report'
@@ -68,6 +75,7 @@ exclude_patterns = [
     '_slides',
     '_i18n',
     '_static',
+    '_unused',
     '_themes',
     '_tmp',
     '**/contrib/*',
@@ -101,11 +109,6 @@ extlinks = {'isbn': ('https://e-isbn.pl/IsbnWeb/start/search.html?szukaj_fraza=%
 numfig_secnum_depth = 1
 numfig = True
 smartquotes = False
-numfig_format = {
-    'section': 'Section %s.',
-    'figure': 'Figure %s.',
-    'table': 'Table %s.',
-    'code-block': 'Listing %s.'}
 
 project_slug = re.sub(r'[\W]+', '', project)
 sha1 = subprocess.run('git log -1 --format="%h"', stdout=subprocess.PIPE, shell=True, encoding='utf-8').stdout.strip()

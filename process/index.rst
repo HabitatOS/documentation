@@ -4,6 +4,7 @@ Process
 
 
 .. toctree::
+    :maxdepth: 1
 
     /process/requirements.rst
     /process/architecture.rst

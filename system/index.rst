@@ -3,6 +3,7 @@ System Architecture
 *******************
 
 .. toctree::
+    :maxdepth: 1
 
     /system/building.rst
     /system/communication.rst

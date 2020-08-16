@@ -126,7 +126,7 @@ Glossary
 
     TRL
     Technology Readiness Level
-        Poziom gotowości technicznej służy do określenia dojrzałości rozwiązania oraz gotowości do wdrożenia. Skala została opracowana przez NASA :cite:`Sadin1988`, a obecnie używana jest przez wszystkie agencje kosmiczne oraz firmy zajmujące się wytwarzaniem rozwiązań o przeznaczeniu do zastosowania w sektorze kosmicznym :cite:`Dunbar2012`, :cite:`TRLESA2008`. NASA definiuje również poziom gotowości technicznej dla projektów dotyczących oprogramowania :cite:`TRLNASA2013` :numref:`appendix-trl`
+        Poziom gotowości technicznej służy do określenia dojrzałości rozwiązania oraz gotowości do wdrożenia. Skala została opracowana przez NASA :cite:`Sadin1988`, a obecnie używana jest przez wszystkie agencje kosmiczne oraz firmy zajmujące się wytwarzaniem rozwiązań o przeznaczeniu do zastosowania w sektorze kosmicznym :cite:`Dunbar2012`, :cite:`TRLESA2008`. NASA definiuje również poziom gotowości technicznej dla projektów dotyczących oprogramowania :cite:`TRLNASA2013` :numref:`appendix-trl`
 
     TWLT
     Two-Way Light Time
