@@ -9,12 +9,6 @@ HabitatOS is a proof of concept operating system for extraterrestrial habitats a
 
 .. image:: https://img.shields.io/pypi/pyversions/habitatOS.svg?style=flat-square
 
-.. image:: https://img.shields.io/travis/AstroMatt/habitatOS/master.svg?style=flat-square&label=Continuous%20Integration
-   :target: http://travis-ci.org/AstroMatt/habitatOS
-
-.. image:: https://img.shields.io/pypi/v/habitatOS.svg?style=flat-square
-   :target: https://pypi.org/project/habitatOS
-
 .. image:: https://readthedocs.org/projects/habitatOS/badge/?version=latest
     :target: https://habitatOS.readthedocs.io
 
