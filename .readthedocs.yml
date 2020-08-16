@@ -4,20 +4,20 @@
 version: 2
 
 sphinx:
-  builder: html
-  configuration: conf.py
-  fail_on_warning: false
+    builder: html
+    configuration: conf.py
+    fail_on_warning: false
 
 # Additional formats
-formats:
-   - pdf
-   - htmlzip
-   - epub
+# formats:
+#    - pdf
+#    - htmlzip
+#    - epub
 
 python:
-  version: 3.8
-  install:
-    - requirements: requirements.txt
+    version: 3.8
+    install:
+        -   requirements: requirements.txt
 
 build:
-  image: latest
+    image: latest
